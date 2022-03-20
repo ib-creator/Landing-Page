@@ -1,0 +1,73 @@
+
+/* NAVBAR*/
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo{
+    margin-left: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#links{
+    display: flex;
+    gap: 42px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+   background-color: #1F2937;
+}
+
+/*END OF STYLING NARBAR*/
+
+
+/*--------INTRODUCTION CONTENT---------*/
+
+/*---------LEFT BOX--------*/
+.intro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 166px;
+    background-color: #1F2937;
+    color: white;
+}
+
+#sign-up{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    padding: 5px;
+    width: 97px;
+    border-radius: 8px;
+    
+}
+
+
+/*----rightbox---------*/
+
+.right-box{
+   height: 175px;
+   width: 418px;
+   background-color: rgb(162, 163, 163);
+}
+
+.right-box p{
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+    color: white;
+}
