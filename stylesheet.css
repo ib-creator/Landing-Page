@@ -71,3 +71,45 @@ header{
     margin-top: 67px;
     color: white;
 }
+
+/*-------MAIN HEADER "some random information"---------*/
+
+.main-header h2{
+    text-align: center;
+    margin-bottom: -144px;
+}
+
+
+/*--------FOUR BOXES CONTAINER--------*/ 
+
+.box-container{
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 297px;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(255, 255, 255);
+    border: 1px blue solid;
+    border-radius: 9px;
+   
+
+
+}
+
+.box-text{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 90px;
+    
+   
+}
+
