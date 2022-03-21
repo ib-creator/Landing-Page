@@ -1,4 +1,6 @@
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* NAVBAR*/
 .nav-container{
     display: flex;
@@ -30,6 +32,7 @@ ul{
 
 header{
    background-color: #1F2937;
+
 }
 
 /*END OF STYLING NARBAR*/
@@ -44,6 +47,7 @@ header{
     padding: 166px;
     background-color: #1F2937;
     color: white;
+    
 }
 
 #sign-up{
@@ -112,4 +116,102 @@ header{
     
    
 }
+/*THE GREY BOX WITH THE QUOTE INSIDE*/
+.quote-container{
+  height: 171px;
+  width: 100%;
+  background-color: #E5E7EB;
+  padding: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.quote-box > p{
+    font-weight: normal;
+    font-style: italic;
+}
+#nameof-writer{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+/*END OF THE GREY BOX WITH THE QUOTE INSIDE*/
+
+/*------bluebox----------*/
+
+.signup-container{
+    display: flex;
+    justify-content: center;
+    padding: 43px;
+}
+
+.signup-box{
+    height: 90px;
+    width: 490px;
+    background-color: #3882f6;
+    border: 1px #3882f6 solid;
+    border-radius: 9px;
+    
+}
+
+/*container that wraps the button, allowing me to use displaylflex*/
+.button-container{
+    display: flex;
+    justify-content:flex-end;
+   
+}
+
+#sign-button2{
+    margin-top: 38px;
+    margin-right: 56px;
+    width: 88px;
+    height: 27px;
+    border-radius: 4px;
+    border: 1px white solid;
+    background-color: #3882f6;
+    color: white;
+}
+
+
+.button-container > h5{
+    color: white;
+
+   
+   
+}
+
+
+.header-textcontainer{
+    display: block;
+    padding: 39px;
+    margin-top: -27px;
+  
+    
+}
+
+.header-textcontainer > h5{
+    margin-bottom: -13px;
+    color: white;
+}
+
+.header-textcontainer > p{
+    font-size: 11px;
+    color: white;
+   
+}
+
+#footer-id{ 
+    background-color: #1f2937;
+    height: 171px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-id > p{
+    
+    color: white;
+
+}
